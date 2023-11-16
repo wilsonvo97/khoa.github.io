@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/flight"
+        android:tooltipText=""
+        app:shapeAppearanceOverlay="@style/roundimageview"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/background"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="16dp"
+            android:text="Chúng tôi là một phần của Tập đoàn Trip.com, một công ty đã niêm yết trên NASDAQ từ năm 2003 (NASDAQ: TCOM). Với hơn 45.100 nhân viên và 400 triệu thành viên, chúng tôi là một trong những đại lý du lịch trực tuyến hàng đầu thế giới."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="16dp"
+            android:text="Với hơn 1,4 triệu khách sạn ở 200 quốc gia và vùng lãnh thổ, chúng tôi đã xây dựng mạng lưới khách sạn rộng lớn để mang đến cho khách hàng của mình những lựa chọn lưu trú tuyệt vời. Mạng lưới chuyến bay rộng khắp với hơn 2 triệu đường bay độc lập kết nối hơn 5.000 thành phố trên khắp thế giới. Kết hợp với dịch vụ chăm sóc khách hàng bằng tiếng Anh hoạt động 24/7 và nhiều sản phẩm du lịch phong phú khác của chúng tôi, bạn có thể tin tưởng để chúng tôi chăm sóc chuyến đi tiếp theo của bạn."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="16dp"
+            android:text="Website này được điều hành bởi Trip.com Travel Singapore Pte. Ltd., được đăng ký ở Singapore (giấy phép đăng ký số 201613701E), thuộc tập đoàn Trip.com.
+Trip.com Singapore được cấp phép hoạt động theo Sắc lệnh Đại lý Du lịch Singapore (Chương 334), có số giấy phép là 02943."/>
+
+    </LinearLayout>
+</RelativeLayout>
